@@ -55,7 +55,7 @@ body{
     font-size: 8vmin;
 }
 .msg-container{
-    height: 100vmin;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
