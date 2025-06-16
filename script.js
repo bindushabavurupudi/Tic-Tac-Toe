@@ -106,8 +106,7 @@ function dropConfetti() {
     confetti.style.animationDuration = (Math.random() * 2 + 2) + "s";
     confetti.style.setProperty('--hue', Math.floor(Math.random() * 360));
     container.appendChild(confetti);
-
-    // Remove after animation
+    
     setTimeout(() => {
       confetti.remove();
     }, 3000);
