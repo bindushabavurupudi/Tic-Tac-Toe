@@ -62,6 +62,7 @@ boxes.forEach((box) => {
         box.disabled = true;
         checkWin();
     });
+    
 });
 
 newBtn.addEventListener("click", newGame);
